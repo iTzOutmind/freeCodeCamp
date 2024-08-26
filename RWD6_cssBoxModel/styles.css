@@ -1,0 +1,32 @@
+.frame {
+    border: solid black 50px;
+    width: 500px;
+    padding: 50px;
+    margin: 20px auto;
+}
+
+.canvas {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+    overflow: hidden;
+}
+
+.one {
+    width: 425px;
+    height: 150px;
+    background-color: #efb762;
+    margin: 20px auto;
+}
+
+.placeholder {
+    
+}
+
+.placeholder {
+    
+}
+
+.placeholder {
+    
+}

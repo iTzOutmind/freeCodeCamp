@@ -7,13 +7,30 @@ html {
 body {
     font-family: "Open Sans", sans-serif;    
 }
-h1 {
+header h1 {
     margin: -4px 0;
-    font-weight: 800;
     text-align: center;
+    letter-spacing:0.15px;
 }
 p {
     margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.bold {
+    font-weight: 800;
+}
+.calories-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.calories-info h2 {
+    margin: 0;
+}
+.divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
 }
 .label {
     border: 2px solid black;
@@ -21,6 +38,18 @@ p {
     margin: 20px auto;
     padding: 0 7px;
 }
-.placeholder {
-    
+.large {
+    height: 10px;
+}
+.large, .medium {
+    background-color: black;
+    border: 0;
+}
+.left-container {
+    margin: -5px -2px;
+    font-size: 2em;
+    font-weight: 700;
+}
+.small-text {
+    font-size: 0.85rem;
 }

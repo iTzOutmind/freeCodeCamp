@@ -1,2 +1,12 @@
 /* Tbd sometime later! */
 /* https://technical-documentation-page.freecodecamp.rocks/ */
+
+.navbar {
+  float: left;
+}
+
+@media (max-width: 512px) {
+  .navbar {
+    float: left;
+  }
+}
